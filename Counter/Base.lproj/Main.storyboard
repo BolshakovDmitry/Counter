@@ -23,7 +23,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="plus.circle.fill" catalog="system"/>
                                 <connections>
-                                    <action selector="plusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lSm-9v-uZV"/>
+                                    <action selector="plusButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="blR-vc-OHR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RO5-ZB-JSQ">
@@ -33,10 +33,10 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="minus.circle.fill" catalog="system"/>
                                 <connections>
-                                    <action selector="minusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q61-XC-1yM"/>
+                                    <action selector="minusButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cdy-7u-cbo"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="История изменений:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="moD-1L-8cM">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="История изменений:" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="moD-1L-8cM">
                                 <rect key="frame" x="84" y="517" width="247" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -50,7 +50,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Обнуление счетчика!"/>
                                 <connections>
-                                    <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wj7-dw-fsz"/>
+                                    <action selector="resetButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dw0-Ab-Miw"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWU-rF-Fgr">
