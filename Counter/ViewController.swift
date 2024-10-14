@@ -29,6 +29,7 @@ final class ViewController: UIViewController {
         } else if counter == 0 {
             textView.text = textView.text + "\n\(getCurrentTime()) попытка уменьшить значение счётчика ниже 0"
         }
+        
     }
     
     @IBAction private func plusButtonTapped(_ sender: Any) {
